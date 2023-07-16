@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>Conversor de Unidades</title>
+
+    </head>
+    <body>
+        
+        <header>
+            <h1>Conversor de Unidades</h1>
+        </header>
+        <!-- Cabeçalho da página com o título  -->
+    
+        <form id="formulario">
+            <div class="valor">
+                <label for="valor">Valor:</label>
+                <input type="number" id="valor" name="valor" class="controle">
+            </div>
+            <!-- Campo de entrada para o valor a ser convertido -->
+    
+            <div class="categoria">
+                <label for="categoria">Categoria:</label>
+                <select id="categoria" name="categoria" class="controle">
+                    <option value="comprimento">Comprimento</option>
+                    <option value="peso">Peso</option>
+                    <option value="temperatura">Temperatura</option>
+                </select>
+            </div>
+            <!-- Campo de seleção da categoria  -->
+    
+            <div class="unidades">
+                <label for="unidadeOrigem">Unidade Origem</label>
+                <select id="unidadeOrigem" name="unidadeOrigem" class="controle"></select>
+            </div>
+            <!-- Campo de seleção da unidade de origem -->
+    
+            <div class="unidades">
+                <label for="unidadeDestino">Unidade Destino</label>
+                <select id="unidadeDestino" name="unidadeDestino" class="controle"></select>
+            </div>
+            <!-- Campo de seleção da unidade de destino -->
+    
+            <input type="submit" value="Converter" class="button">
+            <!-- Botão de envio do formulário para realizar a conversão -->
+    
+            <h2>Resultado: <span id="resultado"></span></h2>
+            <!-- Exibição do resultado  -->
+        </form>
+    
+        <footer>
+            <h2> Daniela Sodeiro Silva </h2>
+        </footer>
+        <!-- Rodapé da página c-->
+    
+        <script src="JS/script.js"></script>
+        
+    </body>
+    </html>
+    

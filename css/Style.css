@@ -1,0 +1,95 @@
+/* Definições gerais para o HTML e o body */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para o body */
+  body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(fundo.jpg); /* Imagem de fundo */
+    color: white; /* Cor do texto */
+    align-items: center; /* Centralizar os elementos verticalmente */
+  }
+  
+  /* Estilos para o cabeçalho */
+  header {
+    color: white;
+    background-color: #08331C;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    font-family: 'Domine', serif;
+    width: 1350px;
+  }
+  
+  /* Estilos para o formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+    background-color: #08331C;
+    width: 40%;
+    height: 300px;
+    border-radius: 50px;
+    align-items: center;
+  }
+  
+  /* Estilos para o campo de valor */
+  .valor {
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    font-size: 150%;
+  }
+  
+  /* Estilos para o campo de categoria */
+  .categoria {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    font-size: 150%;
+  }
+  
+  /* Estilos para o campo de unidades */
+  .unidades {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    font-size: 150%;
+  }
+  
+  /* Estilos para o botão */
+  .button {
+    background-color: #059448;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    font-size: 150%;
+  }
+  
+  /* Estilos para o título h2 */
+  h2 {
+    border-color: white;
+    font-family: 'Domine', serif;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: #08330F;
+    border-radius: 150px;
+    height: 40px;
+    padding: 20px;
+    margin-top: auto;
+    width: 1300px;
+  }
+  
+  /* Estilos para dispositivos de tela pequena */
+    @media (max-width: 650px) {
+      body {
+        font-size: 10px;
+      }}
+      
