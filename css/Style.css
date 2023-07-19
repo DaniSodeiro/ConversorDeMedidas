@@ -9,7 +9,7 @@ html, body {
   body {
     display: flex;
     flex-direction: column;
-    background-image: url(fundo.jpg); /* Imagem de fundo */
+    background-image: url(../img/fundo.jpg); /* Imagem de fundo */
     color: white; /* Cor do texto */
     align-items: center; /* Centralizar os elementos verticalmente */
   }
